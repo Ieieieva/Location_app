@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+:root {
+  --vt-c-base: rgb(230, 230, 230);
+  --vt-c-content: rgb(64, 62, 62);
+  --vt-c-primary-accent: rgb(41, 129, 202);
+  --vt-c-secondary-accent: rgb(255, 255, 255);
+  --vt-c-button: rgb(169, 163, 163);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: var(--vt-c-base);
+  color: var(--vt-c-content);
+}

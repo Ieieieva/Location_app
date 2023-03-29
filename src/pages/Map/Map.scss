@@ -1,0 +1,54 @@
+.map-view__container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+.cta__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.cta__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.cta__form--label {
+  display: flex;
+  flex-direction: column;
+}
+
+.cta__form--input {
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px -5px;
+}
+
+.map__container {
+  box-shadow: 0 0 10px;
+}
+
+.button {
+  border-radius: 10px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  background-color: var(--vt-c-button);
+  color: var(--vt-c-secondary-accent);
+  text-shadow: 2px 1px 1px var(--vt-c-primary-accent);
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  cursor: pointer;
+  transition: border-color 0.25s;
+
+  &:hover {
+    border-color: var(--vt-c-primary-accent);
+  }
+}

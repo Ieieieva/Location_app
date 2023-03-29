@@ -1,0 +1,14 @@
+.row__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  border-bottom: 2px solid grey;
+}
+
+.row__coordinates {
+  display: flex;
+  gap: 15px;
+  min-width: 250px;
+  justify-content: space-between;
+}
